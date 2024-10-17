@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap");
+
+.cursive-font {
+  font-family: "Great Vibes", cursive;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

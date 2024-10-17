@@ -21,7 +21,7 @@ export default function Header() {
     return (
         <header className="shadow-md">
             <div className="logo">
-                <span>Sandip Shakya</span>
+                <span className='font-[700] text-[32px] cursive-font'>Logo</span>
             </div>
             <ul className="nav-links">
                 <li className="nav-item">
@@ -40,11 +40,9 @@ export default function Header() {
                     <a href="#contact" className="nav-link">Contact</a>
                 </li>
             </ul>
-            <div className="nav-button">
-                <a href="#contact" className="btn hire-me-btn">Hire Me</a>
-                <span className="dark-mode-toggle"><i className="dark-mode-icon bx bx-moon"></i></span>
-                <span className="menu-toggle"><i className="bx bx-menu"></i></span>
-            </div>
+            <button className="nav-button">
+                Order Now
+            </button>
         </header>
     );
 }

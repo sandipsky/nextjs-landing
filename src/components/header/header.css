@@ -26,5 +26,16 @@ header.scrolled {
 .nav-item {
     font-size: 18px;
     color: #636363;
-    font-weight: 700;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.nav-item:hover, .nav-item.active {
+    color: #55c48b;
+}
+
+.nav-button {
+    background: linear-gradient(90deg, #55c48b, #01849f);
+    
 }

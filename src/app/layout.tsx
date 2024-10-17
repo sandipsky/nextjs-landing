@@ -20,6 +20,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Asap:wght@100..900&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body>
         <Header></Header>
