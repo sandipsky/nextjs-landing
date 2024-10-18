@@ -1,6 +1,6 @@
 'use client';
 import { useEffect } from 'react';
-import "./header.css";
+import Link from 'next/link'
 
 export default function Header() {
     useEffect(() => {
@@ -20,24 +20,24 @@ export default function Header() {
 
     return (
         <header className="shadow-md">
-            <div className="logo">
+            <div>
                 <span className='font-[700] text-[32px] cursive-font'>Logo</span>
             </div>
-            <ul className="nav-links">
+            <ul className="flex gap-[24px]">
                 <li className="nav-item">
-                    <a href="#home" className="nav-link">Home</a>
+                    <Link href="/" className="nav-link hover:">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="#about" className="nav-link">About Me</a>
+                    <Link href="/about" className="nav-link">About</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="#skills" className="nav-link">Skills</a>
+                    <Link href="/about" className="nav-link">Skills</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="#projects" className="nav-link">Projects</a>
+                    <Link href="/projects" className="nav-link">Projects</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="#contact" className="nav-link">Contact</a>
+                    <Link href="/contact" className="nav-link">Contact</Link>
                 </li>
             </ul>
             <button className="nav-button">
