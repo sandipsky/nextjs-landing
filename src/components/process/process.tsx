@@ -35,7 +35,7 @@ export default function BusinessProcess() {
           <div className="flex-1">
             <div className="relative">
               <img
-                src="/images/business-process.jpg" 
+                src="/images/process.jpg" 
                 alt="Business Process"
                 className="rounded-full shadow-lg"
               />

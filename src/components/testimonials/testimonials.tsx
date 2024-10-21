@@ -5,21 +5,21 @@ export default function Testimonials() {
         title: "CEO, Company A",
         feedback:
           "Next Corporate has transformed our business! Their solutions are top-notch, and the team is incredibly professional.",
-        image: "/images/testimonial1.jpg", // Replace with your image
+        image: "/images/person6.jpg", // Replace with your image
       },
       {
         name: "Jane Smith",
         title: "Founder, Startup B",
         feedback:
           "The team at Next Corporate is fantastic. Their ability to innovate and provide custom solutions helped our company scale rapidly.",
-        image: "/images/testimonial2.jpg", // Replace with your image
+        image: "/images/person1.jpg", // Replace with your image
       },
       {
         name: "Sarah Johnson",
         title: "Marketing Head, Enterprise C",
         feedback:
           "We’ve seen significant growth thanks to the strategies implemented by Next Corporate. Highly recommend their services!",
-        image: "/images/testimonial3.jpg", // Replace with your image
+        image: "/images/person3.jpg", // Replace with your image
       },
     ];
   

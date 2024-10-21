@@ -43,7 +43,7 @@ export default function AboutPage() {
           {/* Image Section */}
           <div className="md:w-1/2 mt-12 md:mt-0">
             <Image
-              src="/images/about-illustration.png" // Replace this with your image path
+              src="/images/about.jpg"
               alt="Team illustration"
               width={500}
               height={400}
@@ -57,36 +57,36 @@ export default function AboutPage() {
       <section className="bg-gray-50 py-20">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-10">Meet Our Team</h2>
-          <div className="flex justify-center space-x-10">
-            <div className="text-center">
+          <div className="flex justify-center space-x-10 items-start">
+            <div className="text-center w-48">
               <Image
-                src="/images/team-member-1.jpg" // Replace with actual team member images
+                src="/images/person2.jpg"
                 alt="Team Member 1"
                 width={200}
                 height={200}
-                className="rounded-full mx-auto mb-4"
+                className="rounded-full mx-auto mb-4 w-[200px] h-[200px]"
               />
               <h4 className="text-xl font-bold">John Doe</h4>
               <p className="text-gray-600">CEO</p>
             </div>
-            <div className="text-center">
+            <div className="text-center w-48">
               <Image
-                src="/images/team-member-2.jpg"
+                src="/images/person4.jpg"
                 alt="Team Member 2"
                 width={200}
                 height={200}
-                className="rounded-full mx-auto mb-4"
+                className="rounded-full mx-auto mb-4 w-[200px] h-[200px]"
               />
               <h4 className="text-xl font-bold">Jane Smith</h4>
               <p className="text-gray-600">Marketing Director</p>
             </div>
-            <div className="text-center">
+            <div className="text-center w-48">
               <Image
-                src="/images/team-member-3.jpg"
+                src="/images/person6.jpg"
                 alt="Team Member 3"
                 width={200}
                 height={200}
-                className="rounded-full mx-auto mb-4"
+                className="rounded-full mx-auto mb-4 w-[200px] h-[200px]" 
               />
               <h4 className="text-xl font-bold">David Lee</h4>
               <p className="text-gray-600">Lead Designer</p>
@@ -94,6 +94,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
 
       {/* Mission & Vision Section */}
       <section className="py-20">

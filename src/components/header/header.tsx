@@ -1,10 +1,12 @@
 'use client';
-import { useEffect } from 'react';
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
     const currentPath = usePathname();
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
     useEffect(() => {
         const handleScroll = () => {
             const header = document.querySelector('header');
@@ -22,10 +24,17 @@ export default function Header() {
 
     return (
         <header className="shadow-md">
-            <div>
+            <div className="flex justify-between items-center">
                 <span className='font-[700] text-[32px] cursive-font'>Logo</span>
+                <button
+                    className="md:hidden nav-button"
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                >
+                    ☰
+                </button>
             </div>
-            <ul className="flex gap-[24px] z-10">
+
+            <ul className={`md:flex gap-[24px] z-10 ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
                 <li className={`nav-item ${currentPath === '/' ? 'active' : ''}`}>
                     <Link href="/" className="nav-link">Home</Link>
                 </li>
@@ -42,7 +51,8 @@ export default function Header() {
                     <Link href="/contact" className="nav-link">Contact</Link>
                 </li>
             </ul>
-            <button className="nav-button">
+
+            <button className="nav-button hidden md:block">
                 Order Now
             </button>
         </header>

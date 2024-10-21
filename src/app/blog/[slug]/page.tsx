@@ -12,13 +12,13 @@ export default function BlogPost() {
     title: "How to Create a Successful Marketing Strategy",
     date: "October 15, 2024",
     author: "John Doe",
-    authorImage: "/images/author.jpg",
+    authorImage: "/images/person6.jpg",
     content: `
       A marketing strategy is vital for any business that wants to grow and succeed in today's competitive environment.
       In this blog, we'll cover the key steps to create a successful marketing strategy, including understanding your audience,
       setting goals, and measuring results.
     `,
-    coverImage: "/images/blog-cover.jpg",
+    coverImage: "/images/about.jpg",
     relatedPosts: [
       { title: "Understanding Customer Behavior", slug: "understanding-customer-behavior" },
       { title: "The Importance of Brand Identity", slug: "importance-of-brand-identity" },
@@ -27,7 +27,7 @@ export default function BlogPost() {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-16 pt-[150px]">
         {/* Blog Title and Cover Image */}
         <div className="mb-12">
           <h1 className="text-4xl font-bold mb-4">{post.title}</h1>

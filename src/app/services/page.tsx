@@ -112,7 +112,7 @@ export default function Services() {
             {/* Basic Package */}
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-center mb-4">Basic</h3>
-              <p className="text-center text-gray-600 mb-6">$199 / month</p>
+              <p className="text-center text-gray-600 mb-6">Rs.999 / month</p>
               <ul className="text-gray-600 mb-4">
                 <li className="mb-2">5 Web Pages</li>
                 <li className="mb-2">Basic SEO Setup</li>
@@ -129,7 +129,7 @@ export default function Services() {
             {/* Standard Package */}
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-center mb-4">Standard</h3>
-              <p className="text-center text-gray-600 mb-6">$399 / month</p>
+              <p className="text-center text-gray-600 mb-6">$Rs.1999 / month</p>
               <ul className="text-gray-600 mb-4">
                 <li className="mb-2">10 Web Pages</li>
                 <li className="mb-2">Advanced SEO</li>
@@ -147,7 +147,7 @@ export default function Services() {
             {/* Premium Package */}
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-center mb-4">Premium</h3>
-              <p className="text-center text-gray-600 mb-6">$799 / month</p>
+              <p className="text-center text-gray-600 mb-6">Rs.2999 / month</p>
               <ul className="text-gray-600 mb-4">
                 <li className="mb-2">Unlimited Web Pages</li>
                 <li className="mb-2">Premium SEO with Backlinking</li>

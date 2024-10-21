@@ -17,7 +17,6 @@ export default function ContactUs() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission logic, e.g., send the data to an API or email service
     console.log(formData);
   };
 
@@ -43,11 +42,11 @@ export default function ContactUs() {
 
             <div className="mt-8">
               <p className="text-gray-700 font-semibold">📍 Address:</p>
-              <p className="text-gray-600">123 Business Avenue, Suite 100</p>
-              <p className="text-gray-600">San Francisco, CA 94103</p>
+              <p className="text-gray-600">New Road</p>
+              <p className="text-gray-600">Kathmandu, Nepal</p>
 
               <p className="mt-4 text-gray-700 font-semibold">📞 Phone:</p>
-              <p className="text-gray-600">+1 234 567 890</p>
+              <p className="text-gray-600">+977 99999999</p>
 
               <p className="mt-4 text-gray-700 font-semibold">✉️ Email:</p>
               <p className="text-gray-600">contact@yourcompany.com</p>
@@ -109,11 +108,10 @@ export default function ContactUs() {
         </div>
       </section>
 
-      {/* Map Section (Optional) */}
+      {/* Map Section */}
       <section className="bg-gray-200 py-16">
         <div className="container mx-auto text-center">
           <h2 className="text-2xl font-bold mb-6">Our Location</h2>
-          {/* You can embed Google Maps iframe here */}
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.717016622461!2d85.4267253154489!3d27.672137532588983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1a94a4741f45%3A0x90cfd4b6a5c4e4c5!2sBhaktapur%20Durbar%20Square!5e0!3m2!1sen!2snp!4v1606415686453!5m2!1sen!2snp"
             width="100%"

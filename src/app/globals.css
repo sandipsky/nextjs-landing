@@ -61,3 +61,30 @@ header.scrolled {
   border-radius: 30px;
   color: white;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header {
+    /* flex-direction: column; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+  .nav-button {
+    margin-top: 10px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.block {
+    display: block;
+  }
+
+  .nav-button {
+    display: inline-block;
+  }
+}
